@@ -10,7 +10,7 @@ import lombok.Setter;
 @Setter
 public class ModelView {
 	private final String viewName;
-	private final Map<String, Object> model = new HashMap<>();
+	private Map<String, Object> model = new HashMap<>();
 
 	public ModelView(String viewName) {
 		this.viewName = viewName;
